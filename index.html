@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sass/custom.css">
+
+</head>
+<body class="fondo">
+    <div class="container   w-75 bg-light mt-5 mb-5 rounded shadow ">
+        <div class="row align-items-stretch">
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
+
+            </div>
+
+            <div class="col bg-white p-5 rounded">
+                <h2 class="fw-bold text-center py-5">Bienvenido</h2>
+               
+                <form action="valida.php" method="post">
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Dirección de correo electrónico</label>
+                        <input type="email" class="form-control" name="email">
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" name="password">
+
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input type="checkbox" name="connected" class="form-check-input">
+                        <label for="connected" class="form-check-label">Mantenerme conectado</label>
+                    </div>
+                    
+                    <!-- (d-grid) para hacer largo el boton azul-->
+                    <div class="d-grid"> 
+                        <a class="btn btn-primary" href="dailytask.php" role="button" type="submit" >Iniciar Sessión</a>
+                    </div>
+                    <div class="my-3">
+                        <span>No tienes cuenta? <a href="index2.html">Regístrate</a></span> <br>
+                    </div>
+
+                    <div class="container w-100 my-5">
+                        <div class="row text-center">
+                            <div class="col-12">Iniciar Sesión</div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary w-100 my-1">
+                                    <div class="row align-items-center">
+                                        <div class="col-2 d-none d-md-block ">
+                                            <img src="./imagenes/2021_Facebook_icon.svg.png" width="32px" alt="">
+                                        </div>
+                                        <div class="col-12 col-md-10 text-center">
+                                            Facebook
+                                        </div>
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="col">
+                                <button class="btn btn-outline-danger w-100 my-1">
+                                    <div class="row align-items-center">
+                                        <div class="col-2 d-none d-md-block">
+                                            <img src="./imagenes/Google_Chrome_icon_(September_2014).svg.png" width="32px" alt="">
+                                        </div>
+                                        <div class="col-12 col-md-10 text-center">
+                                            Google
+                                        </div>
+                                    </div>
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </form>
+            
+            
+            
+            
+            </div>
+
+
+
+        </div>
+    </div>
+    
+</body>
+</html>
